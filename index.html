@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ahmed Gharieb – Data Analyst</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef3f6;--surface:#fff;--ink:#12233a;--muted:#55677d;--line:#d3dde6;--teal:#0e8a8c;--amber:#e9a521;--chipon:#12233a;--chipontext:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1b2b;--surface:#172a40;--ink:#e8eef5;--muted:#9db0c4;--line:#27405c;--teal:#3cc2c4;--amber:#f2b94a;--chipon:#e8eef5;--chipontext:#0f1b2b}}
+:root[data-theme="dark"]{--bg:#0f1b2b;--surface:#172a40;--ink:#e8eef5;--muted:#9db0c4;--line:#27405c;--teal:#3cc2c4;--amber:#f2b94a;--chipon:#e8eef5;--chipontext:#0f1b2b}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "Instrument Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","Instrument Sans",system-ui,sans-serif;line-height:1.1;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:4px}
+.wrap{max-width:960px;margin:0 auto;padding:0 22px}
+section{padding:56px 0 8px}
+h2{font-size:1.9rem;margin-bottom:22px}
+.hero{padding:72px 0 24px}
+h1{font-size:clamp(2.8rem,9vw,5.6rem);font-weight:800;letter-spacing:-.03em}
+.role{font:600 1.2rem "Bricolage Grotesque",sans-serif;color:var(--teal);margin:14px 0 18px}
+.lede{max-width:60ch;color:var(--muted);font-size:1.1rem}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.btn{display:inline-block;padding:11px 20px;border-radius:999px;border:2px solid var(--ink);text-decoration:none;font-weight:600}
+.btn.main{background:var(--ink);color:var(--bg)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin-top:40px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--teal);border-radius:10px;padding:14px 16px}
+.kpi:nth-child(even){border-left-color:var(--amber)}
+.kpi b{display:block;font:800 2rem "Bricolage Grotesque",sans-serif}
+.kpi span{color:var(--muted);font-size:.92rem}
+.filter{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.chip{font:inherit;font-weight:500;padding:7px 15px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--chipon);color:var(--chipontext);border-color:var(--chipon)}
+.proj{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:26px;margin-bottom:18px}
+.proj[hidden]{display:none}
+.proj h3{font-size:1.5rem;margin-bottom:6px}
+.meta{color:var(--muted);font-size:.95rem;margin:0 0 14px}
+.proj ul{margin:0 0 16px;padding-left:20px}
+.proj li{margin-bottom:6px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:.85rem;padding:3px 10px;border-radius:6px;background:var(--bg);border:1px solid var(--line)}
+.schema{width:100%;max-width:430px;margin:4px 0 18px;display:block}
+.schema rect{fill:var(--bg);stroke:var(--line);stroke-width:1.5}
+.schema .fact{fill:var(--teal);stroke:none}
+.schema line{stroke:var(--muted);stroke-width:1.5}
+.schema text{fill:var(--ink);font:600 12px "Instrument Sans",sans-serif;text-anchor:middle}
+.schema .fact+text{fill:#fff}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px 22px}
+.box h3{font-size:1.1rem;margin-bottom:10px}
+.box ul{margin:0;padding-left:18px;color:var(--muted)}
+.tl{border-left:3px solid var(--line);margin-left:6px;padding-left:22px}
+.tl article{margin-bottom:26px;position:relative}
+.tl article::before{content:"";position:absolute;left:-30px;top:8px;width:13px;height:13px;border-radius:50%;background:var(--amber)}
+.tl h3{font-size:1.2rem}
+.tl p{margin:2px 0;color:var(--muted)}
+.certs{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.certs li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 16px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.certs small{color:var(--muted)}
+footer{padding:56px 0 48px}
+footer p{color:var(--muted);max-width:50ch}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<h1>Ahmed Gharieb</h1>
+<p class="role">Data Analyst · Egypt</p>
+<p class="lede">I turn messy, complex datasets into clear dashboards and decisions, using Power BI, SQL, Python and Excel.</p>
+<div class="cta">
+<a class="btn main" href="mailto:ahmedgharieb434@gmail.com">Email me</a>
+<a class="btn" href="https://www.linkedin.com/in/ahmed-gharieb-ag3" target="_blank" rel="noopener">LinkedIn</a>
+</div>
+<div class="kpis">
+<div class="kpi"><b>479K</b><span>job postings analyzed in my Power BI dashboard</span></div>
+<div class="kpi"><b>6</b><span>certificates, including a Deloitte job simulation</span></div>
+<div class="kpi"><b>3.63</b><span>GPA, B.Sc. Computer Science</span></div>
+<div class="kpi"><b>2</b><span>languages: Arabic and English</span></div>
+</div>
+</div></header>
+
+<main class="wrap">
+<section id="work">
+<h2>Projects</h2>
+<div class="filter" role="group" aria-label="Filter projects by tool">
+<button class="chip" data-f="all" aria-pressed="true">All</button>
+<button class="chip" data-f="powerbi" aria-pressed="false">Power BI</button>
+<button class="chip" data-f="sql" aria-pressed="false">SQL</button>
+<button class="chip" data-f="python" aria-pressed="false">Python</button>
+<button class="chip" data-f="tableau" aria-pressed="false">Tableau</button>
+</div>
+
+<article class="proj" data-t="powerbi sql">
+<h3>Data Jobs Dashboard</h3>
+<p class="meta">Power BI · analysis of 479K+ data job postings</p>
+<svg class="schema" viewBox="0 0 430 150" role="img" aria-label="Star schema: one fact table connected to four dimension tables">
+<line x1="215" y1="75" x2="70" y2="30"/><line x1="215" y1="75" x2="360" y2="30"/><line x1="215" y1="75" x2="70" y2="120"/><line x1="215" y1="75" x2="360" y2="120"/>
+<rect x="10" y="12" width="120" height="36" rx="6"/><text x="70" y="35">Dimension</text>
+<rect x="300" y="12" width="120" height="36" rx="6"/><text x="360" y="35">Dimension</text>
+<rect x="10" y="102" width="120" height="36" rx="6"/><text x="70" y="125">Dimension</text>
+<rect x="300" y="102" width="120" height="36" rx="6"/><text x="360" y="125">Dimension</text>
+<rect class="fact" x="155" y="55" width="120" height="40" rx="6"/><text x="215" y="80">Fact table</text>
+</svg>
+<ul>
+<li>Built KPI cards for Job Count, Median Yearly Salary, Median Hourly Salary and Average Skills per Job.</li>
+<li>Used DAX measures, Power Query and field parameters for dynamic, switchable visuals.</li>
+<li>Added slicers for Job Title and Country to explore salary trends and job demand.</li>
+<li>Designed a star schema with fact and dimension tables for speed and scalability.</li>
+<li>Showed the highest-paying data roles and most valuable technical skills with cross-filtering charts.</li>
+</ul>
+<div class="tags"><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Power Query</span><span class="tag">SQL</span><span class="tag">Data modeling</span></div>
+</article>
+
+<article class="proj" data-t="python">
+<h3>Mentallama</h3>
+<p class="meta">Graduation project at Seravian · LLM-powered chatbot</p>
+<ul>
+<li>Developed a chatbot for mental health diagnosis and support, with voice capabilities.</li>
+<li>Cleaned, preprocessed and mined data to support the model and extract insights.</li>
+<li>Worked with a team and stakeholders from data collection to delivery.</li>
+</ul>
+<div class="tags"><span class="tag">Python</span><span class="tag">LLM</span><span class="tag">Data cleaning</span><span class="tag">ETL</span></div>
+</article>
+
+<article class="proj" data-t="tableau">
+<h3>Deloitte Data Analytics Simulation</h3>
+<p class="meta">Job simulation · June 2026</p>
+<ul>
+<li>Designed interactive Tableau dashboards and reports for non-technical stakeholders.</li>
+<li>Turned business data into visuals that support clear decisions.</li>
+</ul>
+<div class="tags"><span class="tag">Tableau</span><span class="tag">Dashboards</span><span class="tag">Reporting</span></div>
+</article>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div class="box"><h3>Tools</h3><ul><li>Power BI: dashboards, DAX, Power Query</li><li>SQL (PostgreSQL)</li><li>Python: Pandas, NumPy, Matplotlib</li><li>Microsoft Excel</li><li>Git and GitHub</li></ul></div>
+<div class="box"><h3>Methods</h3><ul><li>Data analysis and visualization</li><li>ETL</li><li>Data cleaning</li><li>Star schema data modeling</li></ul></div>
+<div class="box"><h3>Working style</h3><ul><li>Communication and teamwork</li><li>Critical thinking and problem solving</li><li>Time management</li><li>Adaptability and willingness to learn</li></ul></div>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience and education</h2>
+<div class="tl">
+<article><h3>Data Analyst, Job simulation</h3><p>Deloitte · June 2026</p></article>
+<article><h3>Data Analyst, Graduation project</h3><p>Seravian · Oct 2024 – Jun 2025</p></article>
+<article><h3>B.Sc. Computer Science</h3><p>Suez University, Egypt · 2021 – 2025 · GPA 3.63</p><p>Data analysis, machine learning, intelligent systems, information systems</p></article>
+</div>
+</section>
+
+<section id="certs">
+<h2>Certificates</h2>
+<ul class="certs">
+<li>Data Analyst Job Simulation, Deloitte <small>Jun 2026</small></li>
+<li>Data Visualization and Dashboards with Excel and Cognos, Coursera <small>Mar 2024</small></li>
+<li>Python for Data Science, AI &amp; Development, Coursera <small>Mar 2024</small></li>
+<li>Introduction to Data Analytics, Coursera <small>Feb 2024</small></li>
+<li>Excel Basics for Data Analysis, Coursera <small>Feb 2024</small></li>
+<li>Data Analytics Essentials, Coursera <small>Feb 2024</small></li>
+</ul>
+</section>
+</main>
+
+<footer><div class="wrap">
+<h2>Let's work together</h2>
+<p>I'm open to data analyst roles. The fastest way to reach me is email.</p>
+<div class="cta">
+<a class="btn main" href="mailto:ahmedgharieb434@gmail.com">ahmedgharieb434@gmail.com</a>
+<a class="btn" href="https://www.linkedin.com/in/ahmed-gharieb-ag3" target="_blank" rel="noopener">LinkedIn</a>
+</div>
+</div></footer>
+
+<script>
+const chips=document.querySelectorAll('.chip'),projs=document.querySelectorAll('.proj');
+chips.forEach(c=>c.addEventListener('click',()=>{
+chips.forEach(x=>x.setAttribute('aria-pressed',x===c));
+const f=c.dataset.f;
+projs.forEach(p=>p.hidden=!(f==='all'||p.dataset.t.split(' ').includes(f)));
+}));
+</script>
+</body>
+</html>
